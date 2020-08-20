@@ -1,0 +1,7 @@
+{
+    "neighbors":[{
+        "name":"sample",
+        "address":"174.138.54.252",
+        "port":1987
+    }]
+}

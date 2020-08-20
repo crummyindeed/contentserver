@@ -1,0 +1,23 @@
+{
+  "name": "contentserver",
+  "version": "1.0.0",
+  "description": "Server Wrapper for Crummy Content",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crummyindeed/contentserver.git"
+  },
+  "author": "Cody Crumrine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crummyindeed/contentserver/issues"
+  },
+  "homepage": "https://github.com/crummyindeed/contentserver#readme",
+  "dependencies": {
+    "crummycontent": "^1.3.0",
+    "public-ip": "^4.0.2"
+  }
+}
