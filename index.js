@@ -46,7 +46,8 @@ rl.question('Please enter a 64 hex character private key for the Server: ', (a1)
         storage_dir: storage_dir,
         private_key: private_key,
         seed_settings: {
-            all: true
+            all: true,
+            auto_fetch:true
         }
       });
   
