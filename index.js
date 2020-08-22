@@ -13,6 +13,7 @@ const rl = readline.createInterface({
 var private_key, Content, port, config;
 
 async function Main(){
+    await Content.init();
     Content.startServer(port,async function(){
         console.log('Content Server running at ', await publicIp.v4() + ':' + port);
         if(typeof config.neighbors != 'undefined'){
