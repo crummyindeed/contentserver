@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/crummyindeed/contentserver#readme",
   "dependencies": {
-    "crummycontent": "^1.4.0",
+    "crummycontent": "^1.4.1",
     "public-ip": "^4.0.2"
   }
 }
